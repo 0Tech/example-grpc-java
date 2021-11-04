@@ -21,3 +21,9 @@ tasks.test {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
+}
